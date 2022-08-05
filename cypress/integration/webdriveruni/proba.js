@@ -8,7 +8,6 @@ describe('Sumbit the formum shoul be succesfull', ()=>{
         cy.get("input[placeholder='Email Address']").type('anne@gmail.com')
         cy.get("textarea[placeholder='Comments']").type('What are ou doing?')
         cy.get("input[type='submit']").click()
-        cy.get("h1").should("have.text", "Thank You for your Message!")
 
 
 
