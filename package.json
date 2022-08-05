@@ -9,7 +9,7 @@
   "author": "Gianni Bruno",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.4.1"
+    "cypress": "^8.7.0"
   },
   "dependencies": {
     "ansi-escapes": "^3.2.0",
